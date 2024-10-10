@@ -10,7 +10,7 @@ export const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(pre => !pre)
   return (
     <>
-      <nav className="py-5 sm:py-8 xl:py-11 relative bg-sky-300">
+      <nav className="py-5 sm:py-8 xl:py-11 relative ">
         <Container>
           <div className="flex justify-between items-center gap-2.5 px-2 pl-2.5 sm:px-5 xl:px-[30px] py-2 sm:py-3.5 xl:py-5 bg-white rounded-full">
             <Logo />

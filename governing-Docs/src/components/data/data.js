@@ -19,4 +19,24 @@ export const NavItem = [
     label: "FAQs",
     link: "#",
   },
+];
+
+
+export const social = [
+  {
+      img: "/fb.png",
+      url: "https://facebook.com"
+  },
+  {
+      img: "/instagram.png",
+      url: "https://instagram.com"
+  },
+  {
+      img: "in.png",
+      url: "https://linkedin.com"
+  },
+  {
+      img: "x.png",
+      url: "https://twitter.com"
+  }
 ]
