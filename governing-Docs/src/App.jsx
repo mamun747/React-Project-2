@@ -1,18 +1,22 @@
 import './App.css'
-import { Footer } from './components/shared/Footer';
+import { Hero } from './components/home/Hero';
+import ProblemSolution from './components/home/ProblemSolution';
+// import { Footer } from './components/shared/Footer';
 import { Navbar } from './components/shared/Nav';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-    <div>
-      <Navbar/>
-      <div className='min-h-[50svh]'></div>
-      <Footer/>
-    </div>
-    </>
-  )
-}
+    <main className="font-nunito-sans bg-hero-bg min-h-svh bg-no-repeat bg-top mx-auto w-full bg-cover">
+      <Navbar />
+      <Hero />
+      <ProblemSolution/>
+      {/* <Reviews />
+      <Partners />
+      <Faq />
+      <Note /> */}
+      {/* <Footer /> */}
+    </main>
+  );
+};
 
 export default App;
