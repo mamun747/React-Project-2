@@ -1,7 +1,7 @@
 import './App.css'
 import { Hero } from './components/home/Hero';
 import ProblemSolution from './components/home/ProblemSolution';
-// import { Footer } from './components/shared/Footer';
+import { Footer } from './components/shared/Footer';
 import { Navbar } from './components/shared/Nav';
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <Partners />
       <Faq />
       <Note /> */}
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 };
