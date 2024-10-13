@@ -5,6 +5,7 @@ import ProblemSolution from './components/home/ProblemSolution';
 import Review from './components/home/Review';
 import { Footer } from './components/shared/Footer';
 import { Navbar } from './components/shared/Nav';
+import  { Faq } from './components/home/Faq'
 
 const App = () => {
   return (
@@ -14,8 +15,8 @@ const App = () => {
       <ProblemSolution/>
       <Review/>
       <Partners/>
-      {/*<Faq />
-      <Note /> */}
+      <Faq/>
+      {/*<Note /> */}
       <Footer />
     </main>
   );

@@ -1,5 +1,5 @@
 import  {Title} from "../common/SectionGradient"
-import { Icons } from "../icons";
+import { IconOpposit, Icons } from "../icons";
 const ProblemSolutionHeader = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const ProblemSolutionHeader = () => {
             <Title gradient="Solution">Problem &</Title>
             <div className="flex justify-center items-center gap-[15px]">
                 <button className="size-10 rounded-full text-Primary flex justify-center items-center shadow-arrow-btn"><Icons/></button>
-                <button className="bg-gradient-primary size-10 rounded-full text-white flex justify-center items-center shadow-arrow-btn"><Icons/></button>
+                <button className="bg-gradient-primary size-10 rounded-full text-white flex justify-center items-center shadow-arrow-btn"><IconOpposit/></button>
             </div>
         </div>
     </>
