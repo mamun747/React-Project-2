@@ -6,21 +6,31 @@ import { faq } from "../data/data"
 
 export const Faq = () => {
     const [active, setActive] = useState(1);
-    const handleChange = (Index) => {
-        active === Index ? setActive(-1) : setActive(Index)
-    }
-  return (
-    <>
-    <section className="lg:mt-[100px] sm:mt-20 mt-[50] xl:mt-[150px]">
-        <Container classname="max-w-[992px]">
-        <Title gradient="Asked Questions" classname="text-center">Frequently</Title>
-        <div className="mt-10 space-y-5">
+  
+    const handleChange = (index) => {
+      active === index ? setActive(-1) : setActive(index);
+    };
+  
+    return (
+      <section className="w-full mt-[50px] sm:mt-[80px] lg:mt-[100px] xl:mt-[150px] relative">
+        <Container className="w-full max-w-[982px] mx-auto px-2.5">
+          <Title gradient="Asked Questions">Frequently </Title>
+          <div className="pt-10 space-y-5 relative z-10">
             {faq.map((faq, i) => (
-                <FaqCard key={i} {...faq} onclick={() => handleChange(i)} isActive={active === i}/>
+              <FaqCard
+                key={i}
+                isActive={active === i}
+                onclick={() => handleChange(i)}
+                {...faq}
+              />
             ))}
-        </div>
+          </div>
         </Container>
-    </section>
-    </>
-  )
-}
+        <img
+          src="/faq-bg-line.svg"
+          alt="Faq Bg Line"
+          className="absolute z-0 -top-[115px] -left-[540px] 2xl:-left-[23.8%] h-[590px] !w-[1713px]"
+        />
+      </section>
+    );
+  };
