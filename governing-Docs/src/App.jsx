@@ -6,6 +6,7 @@ import Review from './components/home/Review';
 import { Footer } from './components/shared/Footer';
 import { Navbar } from './components/shared/Nav';
 import  { Faq } from './components/home/Faq'
+import { Note } from './components/home/Note'; 
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
       <Review/>
       <Partners/>
       <Faq/>
-      {/*<Note /> */}
+      <Note />
       <Footer />
     </main>
   );
