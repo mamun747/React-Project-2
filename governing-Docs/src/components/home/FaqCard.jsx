@@ -2,7 +2,7 @@ import { Icons } from "../icons";
 export const FaqCard = ({q, a, onclick, isActive}) => {
   return (
     <>
-      <div className="shadow-faq rounded-[20px] py-5 px-[30px]">
+      <div className="shadow-faq rounded-[20px] py-5 px-[30px] bg-white">
         <button
           className="inline-flex justify-between items-center w-full"
           onClick={onclick}
