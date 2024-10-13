@@ -1,6 +1,7 @@
 import './App.css'
 import { Hero } from './components/home/Hero';
 import ProblemSolution from './components/home/ProblemSolution';
+import Review from './components/home/Review';
 import { Footer } from './components/shared/Footer';
 import { Navbar } from './components/shared/Nav';
 
@@ -10,8 +11,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <ProblemSolution/>
-      {/* <Reviews />
-      <Partners />
+      <Review/>
+      {/*<Partners />
       <Faq />
       <Note /> */}
       <Footer />

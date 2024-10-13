@@ -65,3 +65,36 @@ export const ProblemSolutions = [
     des1: "Ensure all your documents meet the latest regulatory standards."
   }
 ]
+
+export const reviews = [
+  {
+    name: "David",
+    img: "david.png",
+    type: "Happy Client",
+    review: {
+      starts: 4,
+      title: "Highly Recommended",
+      details: "The service was user-friendly and met all my expectations."
+    }
+  },
+  {
+    name: "John Smith",
+    img: "john.png",
+    type: "Happy Client",
+    review: {
+      starts: 5,
+      title: "It was an Amazing Experience!",
+      details: "The AI features saved us countless hours and ensured our compliance was spot on."
+    }
+  },
+  {
+    name: "Ronald Richards",
+    img: "ronald.png",
+    type: "Happy Client",
+    review: {
+      starts: 1,
+      title: "It was an bad Experience",
+      details: "The AI features saved us countless hours and ensured our compliance was spot on."
+    }
+  }
+]
