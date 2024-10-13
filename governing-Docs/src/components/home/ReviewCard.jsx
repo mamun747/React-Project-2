@@ -1,6 +1,6 @@
 import { CN } from "../function/cd";
 
-const ReviewCard = ({name, img, type, active, onclick}) => {
+export const ReviewCard = ({name, img, type, active, onclick}) => {
   return (
     <>
       <button className={CN("inline-flex justify-normal items-center border rounded-[20px] border-Primary lg:w-[400px] w-full xl:w-[491px] py-[1px] px-5 gap-[13px]", active && 'bg-gradient-primary')} onClick={onclick}>
@@ -13,5 +13,3 @@ const ReviewCard = ({name, img, type, active, onclick}) => {
     </>
   );
 };
-
-export default ReviewCard;

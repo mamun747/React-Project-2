@@ -2,7 +2,7 @@ import { Container } from "../common/Container";
 import { Title } from "../common/SectionGradient";
 import { partner } from "../data/data";
 
-const Partners = () => {
+export const Partners = () => {
   return (
     <>
       <section className="px-2.5">
@@ -22,5 +22,3 @@ const Partners = () => {
     </>
   );
 };
-
-export default Partners;

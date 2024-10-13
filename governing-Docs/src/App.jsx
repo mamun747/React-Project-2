@@ -1,12 +1,7 @@
 import './App.css'
-import { Hero } from './components/home/Hero';
-import Partners from './components/home/Partners';
-import ProblemSolution from './components/home/ProblemSolution';
-import Review from './components/home/Review';
+import { Hero, ProblemSolution, Review, Faq, Partners, Note } from './components/home';
 import { Footer } from './components/shared/Footer';
 import { Navbar } from './components/shared/Nav';
-import  { Faq } from './components/home/Faq'
-import { Note } from './components/home/Note'; 
 
 const App = () => {
   return (

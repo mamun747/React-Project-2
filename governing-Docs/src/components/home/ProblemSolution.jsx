@@ -3,7 +3,7 @@ import { ProblemSolutions } from "../data/data";
 import { ProblemSolutionCard } from "./ProblemSolutionCard";
 import ProblemSolutionHeader from "./ProblemSolutionHeader";
 
-const ProblemSolution = () => {
+export const ProblemSolution = () => {
   return (
     <>
         <section className="pt-32">
@@ -21,5 +21,3 @@ const ProblemSolution = () => {
     </>
   )
 }
-
-export default ProblemSolution;

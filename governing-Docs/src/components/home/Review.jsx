@@ -3,10 +3,10 @@ import { Container } from "../common/Container";
 import { Title } from "../common/SectionGradient";
 import { reviews } from "../data/data";
 import { Star } from "../icons";
-import ReviewCard from "./ReviewCard";
+import { ReviewCard } from "./ReviewCard";
 import { CN } from "../function/cd";
 
-const Review = () => {
+export const Review = () => {
   const [active, setActive] = useState(1);
   const activeReview = reviews[active];
   return (
@@ -59,5 +59,3 @@ const Review = () => {
     </>
   );
 };
-
-export default Review;
